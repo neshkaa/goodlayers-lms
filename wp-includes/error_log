@@ -1,0 +1,8 @@
+[25-Oct-2021 14:24:36 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/ethicals/public_html/wp-includes/locale.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/ethicals/public_html/wp-includes/locale.php on line 11
+[26-Jun-2023 12:09:37 UTC] PHP Warning:  Use of undefined constant BLOGUPLOADDIR - assumed 'BLOGUPLOADDIR' (this will throw an Error in a future version of PHP) in /home/ethicals/public_html/wp-includes/ms-files.php on line 26
+[27-Jun-2023 06:31:36 UTC] PHP Warning:  Use of undefined constant BLOGUPLOADDIR - assumed 'BLOGUPLOADDIR' (this will throw an Error in a future version of PHP) in /home/ethicals/public_html/wp-includes/ms-files.php on line 26
+[27-Jun-2023 07:40:23 UTC] PHP Warning:  Use of undefined constant BLOGUPLOADDIR - assumed 'BLOGUPLOADDIR' (this will throw an Error in a future version of PHP) in /home/ethicals/public_html/wp-includes/ms-files.php on line 26
+[03-Jul-2023 16:24:57 UTC] PHP Warning:  Use of undefined constant BLOGUPLOADDIR - assumed 'BLOGUPLOADDIR' (this will throw an Error in a future version of PHP) in /home/ethicals/public_html/wp-includes/ms-files.php on line 26

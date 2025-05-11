@@ -1,0 +1,14 @@
+/* Example styles for mobile WooCommerce product page */
+@media only screen and (max-width: 768px) {
+    /* Your mobile styles here */
+    .woocommerce .single-product {
+       background:red;
+    }
+
+    .woocommerce .single-product .product-title {
+font-family: 'Simbal';    }
+.woocommerce .product .product_title
+{
+font-family: 'Simbal';    }
+    /* Add more styles as needed */
+}

@@ -1,0 +1,363 @@
+<?php
+/*security to prevent direct access of php files*/
+if ( ! defined ('ABSPATH' )) {
+    exit;
+}
+
+add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
+function my_theme_enqueue_styles() {
+    wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
+}
+ /**
+ * Filter Force Login to allow exceptions for specific URLs.
+ *
+ * @return array An array of URLs. Must be absolute.
+ **/
+function my_forcelogin_whitelist( $whitelist ) {
+  $whitelist[] = site_url( '/xmlrpc.php' );
+  return $whitelist;
+}
+add_filter('v_forcelogin_whitelist', 'my_forcelogin_whitelist', 10, 1);
+
+// echo('langis'.pll_current_language());
+// function custom_multilang_logo( $value ) {
+// 	if ( function_exists( 'pll_current_language' ) ) {
+// 		$logos = array(
+// 			'en' => wp_get_attachment_image('1555', 'full'),
+// 			'fr' => wp_get_attachment_image('1556', 'full'),
+// 		);
+// 		$default_logo = $logos['en'];
+// 		$current_lang = pll_current_language();
+// 		if ( isset( $logos[ $current_lang ] ) )
+// 			$value = $logos[ $current_lang ];
+// 		else
+// 			$value = $default_logo;
+// 	}
+// 	$html = sprintf( '<a href="%1$s" class="custom-logo-link" rel="home" itemprop="url">%2$s</a>',
+//             esc_url( home_url( '/' ) ),
+//             $value
+//         );
+// 	return $html;
+//
+// }
+// add_filter( 'get_custom_logo', 'custom_polylang_multilang_logo' );
+
+// create Post Type: Cruelty-Free
+function create_posttype() {
+  register_post_type( 'wpl_crueltyfree',
+    array(
+      'labels' => array(
+        'name' => __( 'Cruelty-Free' ),
+        'singular_name' => __( 'Cruelty-Free' )
+      ),
+      'public' => true,
+      'has_archive' => true,
+      'supports' => array( 'title', 'editor', 'thumbnail', 'custom-fields', 'excerpt','trackback','comment','revisions','page-attributes','post-format'),
+      'rewrite' => array('slug' => 'crueltyfree'),
+      'menu_icon' => 'dashicons-buddicons-activity', 'f452'
+
+    )
+  );
+}
+add_action( 'init', 'create_posttype' );
+
+// Participants Database: activate multilingual site
+ define( 'PDB_MULTILINGUAL', true );
+
+//Polylang Shortcode for language switcher flags
+/*https://polylang.wordpress.com/documentation/documentation-for-developers/functions-reference/*/
+function polylang_flags_shortcode() {
+    ob_start();
+    pll_the_languages(array('show_flags'=>1,'show_names'=>0));
+    $flags = ob_get_clean();
+    return '<ul class="polylang-flags">' . $flags . '</ul>';
+}
+add_shortcode('POLYLANGflags', 'polylang_flags_shortcode');
+
+// [polylang lang="bg"]Български[/polylang][polylang lang="en"]English[/polylang]
+/*https://wordpress.org/support/topic/compatibility-with-polylang-12/
+*/
+function polylang_shortcode($atts, $content = null)
+{
+    if (empty($content))
+return '';
+    extract( shortcode_atts(array('lang' => ''), $atts ) );
+    if (empty($lang))
+    return "###You must specify 'lang' using shortcode: polylang";
+
+    return ($lang == pll_current_language()) ? $content : '';
+}
+add_shortcode('polylang', 'polylang_shortcode');
+
+//for Polylang lang shortcode to work in Participants Database Fields
+add_filter( 'pdb-translate_string', 'shortcode_unautop');
+add_filter( 'pdb-translate_string', 'do_shortcode', 11);
+
+//Participants Database single record translation with Polylang
+add_filter( 'pdb-single_record_url', function($singleurl, $recordid) {
+    if (pll_current_language() == 'bg') {
+        return $singleurl = 'марка' . '/?pdb=' . $recordid;
+   }elseif (pll_current_language() == 'en') {
+        return $singleurl = 'brand'. '/?pdb=' . $recordid; }}
+            , 10, 2 );
+
+
+add_filter( 'option_generate_blog_settings', function( $options ) {
+    $options['read_more'] = __( 'Read more', 'gp-premium' );
+
+    return $options;
+} );
+
+/*from: https://typerocket.com/ultimate-guide-to-custom-post-types-in-wordpress/
+// Add theme support for featured image / thumbnails
+add_theme_support('post-thumbnail');
+
+// Declare what the post type supports
+$supports = ['title', 'editor', 'thumbnail', 'custom-fields', 'excerpt','trackback','comment','revisions','page-attributes','post format']*/
+
+/* Create custom posts in WordPress taking data from a MySQL database.
+@link https://imelgrat.me/wordpress/bulk-upload-custom-posts-wordpress/
+Load WordPress functions and plug-ins. Put correct path for this file.
+This example assumes you're using it from a sub-folder of WordPress.
+If you run it from somewhere else, adjust path to wp-load.php accordingly.
+*/
+/*require_once('../wp-load.php');
+
+$database['hostname'] = 'localhost';
+$database['username'] = 'ethicals_admin4e';
+$database['password'] = 'HipH0padetoHl0pa';
+$database['database'] = 'ethicals_list';
+
+$mysql_link = mysqli_connect($database['hostname'], $database['username'], $database['password']);
+mysqli_select_db($mysql_link, $database['database']);
+mysqli_query($mysql_link, "SET NAMES UTF8");
+mysqli_query($mysql_link, "SET NAMES 'UTF8'");
+mysqli_query($mysql_link, "SET CHARACTER SET UTF8");
+
+/*
+—
+— Table structure for table `products`
+—
+CREATE TABLE IF NOT EXISTS `products` (
+    `product_id` bigint(20) NOT NULL AUTO_INCREMENT,
+    `name` varchar(255) NOT NULL,
+    `description` text NOT NULL,
+    `price` float NOT NULL,
+    `ingredients` text NOT NULL,
+    PRIMARY KEY (`product_id`)	 )
+    ENGINE=InnoDB DEFAULT CHARSET=utf8;
+    */
+/*$query = "SELECT * FROM `LB` WHERE `Cruelty-Free`= 0 ORDER BY `BRAND`.`id` ASC;"; // products
+$result = mysqli_query($mysql_link, $query);
+
+while ($row = mysqli_fetch_assoc($result)) {
+    // Insert the post and set the category.
+    // See https://gist.github.com/imelgrat/85ea75390757f18293674abdc9bd89e6#file-bulk-upload-php
+    // for custom post type declaration
+    $post_id = wp_insert_post(array(
+    'post_type' => 'crueltyfree',
+    'post_title' => $row['BRAND'],
+    'post_content' => $row['Description'],
+    'post_status' => 'pending', // Can be draft, pending or any other post status
+    'comment_status' => 'closed', // if you prefer
+    'ping_status' => 'closed', // if you prefer
+        ));
+
+    if ($post_id) {
+    // Insert post meta (ACF Custom Fields)
+    add_post_meta($post_id, 'Cruelty-Free', $row['Cruelty-Free']);
+    add_post_meta($post_id, 'Vegan', $row['Vegan']);
+
+    }
+
+
+    echo $row['BRAND'] . ' posted<br>';
+}
+?>
+ */
+
+
+/*
+function snej_single_record_url($singleurl, $pdb_record_id)
+{
+    if (pll_current_language() == 'bg'){
+        return $singleurl = 'марка' ;
+    } elseif (pll_current_language() == 'en') {
+        return $singleurl  = 'brand';}
+}
+
+add_filter( 'pdb-single_record_url', 'snej_single_record_url',10,2);
+
+
+/*
+if ( !function_exists( 'pll_current_language' ) ) {
+    require_once '/include/api.php';
+}
+
+// optional the language field to return 'name', 'locale', defaults to 'slug'
+$field = 'locale';
+
+// NOTICE! Understand what this does before running.
+$result = pll_current_language($field);
+*/
+/*
+function pdb_single_record_url($default = 'brand', $translatedURL) {
+ if(pll_current_language() == 'списък') {
+  return $translatedURL='марка';
+ } else if(pll_current_language() == 'cruelty-free-list') {
+    return $translatedURL='brand';
+ }
+*/
+/*
+if (!function_exists('pdb_list')) {
+    function pdb_list($atts){
+        extract (shortcode_atts('single_record_link', $atts));
+
+        if ('en'($single_record_link)) {
+        return 'single_record_link' == 'brand';
+        }
+        elseif ('bg'($single_record_link)){
+        return 'single_record_link' == 'списък';
+        }}}
+*/
+/*
+if ( $result->pll_current_language['lang'] === 'bg_BG' ) {
+
+	echo do_shortcode( '[pdb_list single_record_link="марка"]' );
+}
+elseif ( $result->pll_current_language['lang'] === 'en_EN' ) {
+	echo do_shortcode( '[pdb_list single_record_link="brand"]' );
+}
+
+function pdb_single_record_url( $abcd, $wtf) {
+    if ($result='bg_BG'){
+$abcd .= 'марка';
+if ($result='en_EN'){
+$abcd .= 'brand';
+
+return $abcd;}}}
+add_filter('pdb-single_record_url',$abcd, $wtf)
+*/
+/*
+return $abcd;return $abcd='марка';
+    if ($result='en_EN')
+    return $abcd='brands';
+*/
+/*
+function pdb_single_callback( 'pdb-single_record_url' ) {
+    // Maybe modify $example in some way.
+    return $example;
+}
+
+function single_record_change_lang()
+add_filter( 'pdb-single_record_url'
+*/
+
+/*Polylang logo change
+https://stackoverflow.com/questions/48960489/wordpress-change-logo-image-when-i-click-to-a-different-language
+*/
+
+// add_filter( 'get_custom_logo', 'my_polylang_logo' );
+// function my_polylang_logo() {
+//   echo('test');
+//   $logos = array(
+//      'en' => 'logo_en.jpg',
+//      'fr' => 'logo_fr.jpg',
+//      'de' => 'logo_de.jpg',
+//      'es' => 'logo_esp.jpg'
+//   );
+//   $current_lang = pll_current_language();
+//   $img_path = get_stylesheet_directory_uri() . '/images/';
+//   if ( isset( $logos[ $current_lang ] ) ) {
+//      $logo_url = $img_path . $logos[$current_lang];
+//   } else {
+//      $logo_url = $img_path . $logos['en'];
+//   }
+//   $home_url = home_url();
+//   $html = sprintf( '<a href="%1$s" rel="home" itemprop="url"><img src="%2$s"></a>', esc_url( $home_url ), $logo_url);
+//    return $html;
+// }
+
+// add_filter('avf_logo_final_output','avf_change_logo');
+// function avf_change_logo($logo)
+// {
+//   echo('test');
+// 	$lang = pll_current_language('locale');
+// 	switch ($lang) {
+//     case 'en':
+//         $logo = "https://thelastcage.org/LC3.png";
+//         break;
+//     case 'bg':
+//         $logo = "https://thelastcage.org/LC2.png";
+//         break;
+// 	}
+//
+// 	return $logo;
+// }
+
+function nd_dosth_theme_setup() {
+    // Add <title> tag support
+    add_theme_support( 'title-tag' );
+    // Add custom-logo support
+    add_theme_support( 'custom-logo' );
+}
+add_action( 'after_setup_theme', 'nd_dosth_theme_setup');
+/*
+function custom_polylang_multilang_logo( $value ) {
+		$logos = array(
+			'en' => wp_get_attachment_image('1555', 'full'),
+			'fr' => wp_get_attachment_image('1556', 'full'),
+		);
+		$default_logo = $logos['en'];
+		$current_lang = pll_current_language();
+		if ( isset( $logos[ $current_lang ] ) )
+			$value = $logos[ $current_lang ];
+		else
+			$value = $default_logo;
+
+	$html = sprintf( '<a href="%1$s" class="custom-logo-link" rel="home" itemprop="url">%2$s</a>',
+            esc_url( home_url( '/' ) ),
+            $value
+        );
+	return $html;
+}*/
+
+function pl_string_after_setup_theme() {
+
+// register our translatable strings - again first check if function exists.
+    if ( function_exists( 'pll_register_string' ) ) {
+
+  pll_register_string('Response', 'Response');
+  pll_register_string('Responses', 'Responses');
+  pll_register_string('Comment navigation', 'Comment navigation');
+  pll_register_string('&larr; Older Comments', '&larr; Older Comments');
+  pll_register_string('Newer Comments &rarr;', 'Newer Comments &rarr;');
+  pll_register_string('You must be logged in to post', 'You must be <a href="%s">logged in</a> to post a comment.');
+  pll_register_string('Share post', 'Share Post:');
+  pll_register_string('Leave a Reply', 'Leave a Reply');
+  pll_register_string('Post Comment', 'Post Comment');
+  pll_register_string('Leave a Reply to %s', 'Leave a Reply to %s');
+  pll_register_string('Cancel Reply', 'Cancel Reply');
+  pll_register_string('Logged in as', 'Logged in as <a href="%1$s">%2$s</a>. <a href="%3$s" title="Log out of this account">Log out?</a>');
+
+    }
+}
+ add_action( 'after_setup_theme', 'pl_string_after_setup_theme' );
+ 
+ function add_linebreak_shortcode() {
+return '<br />';
+}
+add_shortcode('br', 'add_linebreak_shortcode' );
+
+function tnr_custom_new_menu() {
+  register_nav_menu('tnr-custom-menu',__( 'TNR Custom Menu' ));
+}
+add_action( 'init', 'tnr_custom_new_menu' );
+
+function tutsplus_enqueue_custom_js() {
+    if ($_SERVER['SERVER_NAME'] == 'rescue.thelastcage.org') {
+    wp_enqueue_script('tnrmenu', 'https://rescue.thelastcage.org/rescue/scripts/tnrmenu.js', array(), false, false);
+}}
+add_action('wp_enqueue_scripts', 'tutsplus_enqueue_custom_js');
+
+?>

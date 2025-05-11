@@ -1,0 +1,190 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Participants Database Permalinks\n"
+"POT-Creation-Date: 2020-09-28 09:44-1000\n"
+"PO-Revision-Date: 2016-08-06 21:21-1000\n"
+"Last-Translator: Roland Barker <webdesign@xnau.com>\n"
+"Language-Team: Roland Barker <webdesign@xnau.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: pdb-permalinks.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: pdb_permalinks/Manage_Slugs.php:45
+msgid "%s s% records have been updated with their permalink slugs."
+msgstr ""
+
+#: pdb_permalinks/Plugin.php:83
+msgid "Permalinks"
+msgstr ""
+
+#: pdb_permalinks/Plugin.php:109
+msgid " processing permalinks in the background..."
+msgstr ""
+
+#: pdb_permalinks/Plugin.php:117
+#, php-format
+msgid " update complete: %d records processed."
+msgstr ""
+
+#: pdb_permalinks/Plugin.php:133
+msgid "General Settings"
+msgstr ""
+
+#: pdb_permalinks/Plugin.php:141
+msgid "First Identifier Column"
+msgstr ""
+
+#: pdb_permalinks/Plugin.php:145
+msgid ""
+"The values of the field is the first one used to generate the record slug."
+msgstr ""
+
+#: pdb_permalinks/Plugin.php:152
+msgid "Second Identifier Column"
+msgstr ""
+
+#: pdb_permalinks/Plugin.php:156
+msgid ""
+"The values of the field is the second one used to generate the record slug. "
+"This is optional."
+msgstr ""
+
+#: pdb_permalinks/Plugin.php:164
+msgid "Auxiliary Identifier Column"
+msgstr ""
+
+#: pdb_permalinks/Plugin.php:168
+msgid ""
+"The value in this column will only be used if using the above field or "
+"fields gives a duplicate slug. If \"none\" a number will be used instead."
+msgstr ""
+
+#: pdb_permalinks/Plugin.php:176
+msgid "Record URL Key"
+msgstr ""
+
+#: pdb_permalinks/Plugin.php:179
+msgid ""
+"This string is used to identify the URL as one to get a single record. See "
+"above for explanation."
+msgstr ""
+
+#: pdb_permalinks/Plugin.php:188
+msgid "Enable Permalinks on Record Edit URLs"
+msgstr ""
+
+#: pdb_permalinks/Plugin.php:191
+msgid "Check this to use pretty permalinks with your private record edit links"
+msgstr ""
+
+#: pdb_permalinks/Plugin.php:198
+msgid "Record Edit URL Key"
+msgstr ""
+
+#: pdb_permalinks/Plugin.php:201
+msgid ""
+"This string is used to identify the URL as one to open a record edit page."
+msgstr ""
+
+#: pdb_permalinks/Plugin.php:234
+msgid ""
+"This plugin works very much like WordPress permalinks: each record in "
+"Participants Database is given a unique \"slug\" which identifies the record "
+"with a descriptive human-readible string. The slug gets it's value from the "
+"fields defined in the identifier column settings."
+msgstr ""
+
+#: pdb_permalinks/Plugin.php:235
+msgid ""
+"This slug is then used along with the \"Record URL Key\" to create the URL "
+"for accessing the record. For example, if the key word was \"member\" the "
+"the identifier columns were \"first_name\" and \"last_name,\" a record for "
+"the name \"John Smith\" would be reached at: member/john-smith."
+msgstr ""
+
+#: pdb_permalinks/Plugin.php:236
+msgid ""
+"The \"Auxiliary Identifier Column\" is used if the first two columns don't "
+"result in a unique slug."
+msgstr ""
+
+#: pdb_permalinks/Plugin.php:237
+#, php-format
+msgid ""
+"Important: The %sWordPress Permalinks settings%s must be refreshed after any "
+"change here that changes the structure of the Participants Database "
+"permalink."
+msgstr ""
+
+#: pdb_permalinks/Plugin.php:238
+msgid ""
+"To refresh permalinks, go to the WordPress settings/permalinks page and save "
+"the permalinks."
+msgstr ""
+
+#: pdb_permalinks/Plugin.php:239
+#, php-format
+msgid ""
+"Pretty permalinks can also be used with record edit links, so that your "
+"record edit link could look something like this: %s This is enabled in the "
+"settings below, you can also set the keyword to use."
+msgstr ""
+
+#: pdb_permalinks/Plugin.php:242
+msgid ""
+"Your WordPress Permalinks are currently set to \"Plain.\" You must have site-"
+"wide pretty permalinks enabled for this add-on to work."
+msgstr ""
+
+#: pdb_permalinks/Plugin.php:253
+msgid "Update All Record Slugs"
+msgstr ""
+
+#: pdb_permalinks/Plugin.php:254
+msgid ""
+"This provides all records with a \"slug\" based on the identifier columns "
+"settings above. Unless you change the above settings and want to re-build "
+"all the slugs, you only need to do this once when you first set up the "
+"plugin. Note: this may take a long time with very large databases."
+msgstr ""
+
+#: pdb_permalinks/Plugin.php:258
+msgid "Update All Slugs"
+msgstr ""
+
+#: pdb_permalinks/Plugin.php:362
+msgid "none"
+msgstr ""
+
+#: pdb_permalinks/database/Init.php:32
+msgid "Slug"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Participants Database Permalinks"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://xnau.com/shop/pdb-permalinks/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Use human-readable and SEO-friendly permalinks for Participants Database "
+"records"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Roland Barker, xnau webdesign"
+msgstr ""

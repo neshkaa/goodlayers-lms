@@ -1,0 +1,67 @@
+[09-Nov-2022 16:30:15 UTC] participants-database plugin activated
+[09-Nov-2022 16:30:59 UTC] participants-database plugin deactivated
+[09-Nov-2022 16:33:05 UTC] participants-database plugin activated
+[09-Nov-2022 16:34:12 UTC] participants-database plugin deactivated
+[18-Jun-2023 13:42:18 UTC] PHP Fatal error:  Cannot declare class Stripe\Stripe, because the name is already in use in /home/ethicals/public_html/wp-content/plugins/goodlayers-lms/include/payment-api/stripe-php/lib/Stripe.php on line 10
+[18-Jun-2023 15:40:31 UTC] PHP Fatal error:  Cannot declare class Stripe\Stripe, because the name is already in use in /home/ethicals/public_html/wp-content/plugins/goodlayers-lms/include/payment-api/stripe-php/lib/Stripe.php on line 10
+[18-Jun-2023 15:42:07 UTC] PHP Warning:  include_once(include/payment-api/stripe-php/init.php): failed to open stream: No such file or directory in /home/ethicals/public_html/wp-content/plugins/goodlayers-lms/goodlayers-lms.php on line 63
+[18-Jun-2023 15:42:07 UTC] PHP Warning:  include_once(): Failed opening 'include/payment-api/stripe-php/init.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/ethicals/public_html/wp-content/plugins/goodlayers-lms/goodlayers-lms.php on line 63
+[18-Jun-2023 15:42:07 UTC] PHP Warning:  include_once(include/payment-api/stripe-php/init.php): failed to open stream: No such file or directory in /home/ethicals/public_html/wp-content/plugins/goodlayers-lms/goodlayers-lms.php on line 63
+[18-Jun-2023 15:42:07 UTC] PHP Warning:  include_once(): Failed opening 'include/payment-api/stripe-php/init.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/ethicals/public_html/wp-content/plugins/goodlayers-lms/goodlayers-lms.php on line 63
+[18-Jun-2023 15:42:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ethicals/public_html/wp-content/plugins/goodlayers-lms/goodlayers-lms.php:63) in /home/ethicals/public_html/wp-admin/includes/misc.php on line 1381
+[18-Jun-2023 15:42:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ethicals/public_html/wp-content/plugins/goodlayers-lms/goodlayers-lms.php:63) in /home/ethicals/public_html/wp-includes/functions.php on line 6880
+[18-Jun-2023 15:42:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ethicals/public_html/wp-content/plugins/goodlayers-lms/goodlayers-lms.php:63) in /home/ethicals/public_html/wp-admin/admin-header.php on line 9
+[18-Jun-2023 15:43:46 UTC] PHP Warning:  include_once(): Failed opening '/home/ethicals/public_html/wp-content/plugins/goodlayers-lms/include/stripe-payment.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/ethicals/public_html/wp-content/plugins/goodlayers-lms/goodlayers-lms.php on line 62
+[18-Jun-2023 15:43:46 UTC] PHP Warning:  include_once(include/payment-api/stripe-php/init.php): failed to open stream: No such file or directory in /home/ethicals/public_html/wp-content/plugins/goodlayers-lms/goodlayers-lms.php on line 63
+[18-Jun-2023 15:43:46 UTC] PHP Warning:  include_once(): Failed opening 'include/payment-api/stripe-php/init.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/ethicals/public_html/wp-content/plugins/goodlayers-lms/goodlayers-lms.php on line 63
+[18-Jun-2023 15:43:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ethicals/public_html/wp-content/plugins/goodlayers-lms/goodlayers-lms.php:62) in /home/ethicals/public_html/wp-admin/includes/misc.php on line 1381
+[18-Jun-2023 15:43:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ethicals/public_html/wp-content/plugins/goodlayers-lms/goodlayers-lms.php:62) in /home/ethicals/public_html/wp-includes/functions.php on line 6880
+[18-Jun-2023 15:43:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ethicals/public_html/wp-content/plugins/goodlayers-lms/goodlayers-lms.php:62) in /home/ethicals/public_html/wp-admin/admin-header.php on line 9
+[18-Jun-2023 15:45:11 UTC] PHP Warning:  include_once(include/payment-api/stripe-php/init.php): failed to open stream: No such file or directory in /home/ethicals/public_html/wp-content/plugins/goodlayers-lms/goodlayers-lms.php on line 63
+[18-Jun-2023 15:45:11 UTC] PHP Warning:  include_once(): Failed opening 'include/payment-api/stripe-php/init.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/ethicals/public_html/wp-content/plugins/goodlayers-lms/goodlayers-lms.php on line 63
+[18-Jun-2023 15:45:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ethicals/public_html/wp-content/plugins/goodlayers-lms/goodlayers-lms.php:63) in /home/ethicals/public_html/wp-admin/includes/misc.php on line 1381
+[18-Jun-2023 15:45:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ethicals/public_html/wp-content/plugins/goodlayers-lms/goodlayers-lms.php:63) in /home/ethicals/public_html/wp-includes/functions.php on line 6880
+[18-Jun-2023 15:45:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ethicals/public_html/wp-content/plugins/goodlayers-lms/goodlayers-lms.php:63) in /home/ethicals/public_html/wp-admin/admin-header.php on line 9
+[22-Jun-2023 09:56:29 UTC] participants-database plugin activated
+[01-Sep-2023 11:02:13 UTC] WordPress database error Specified key was too long; max key length is 1000 bytes for query 
+CREATE TABLE po1_wc_orders (
+	id bigint(20) unsigned,
+	status varchar(20) null,
+	currency varchar(10) null,
+	type varchar(20) null,
+	tax_amount decimal(26,8) null,
+	total_amount decimal(26,8) null,
+	customer_id bigint(20) unsigned null,
+	billing_email varchar(320) null,
+	date_created_gmt datetime null,
+	date_updated_gmt datetime null,
+	parent_order_id bigint(20) unsigned null,
+	payment_method varchar(100) null,
+	payment_method_title text null,
+	transaction_id varchar(100) null,
+	ip_address varchar(100) null,
+	user_agent text null,
+	customer_note text null,
+	PRIMARY KEY (id),
+	KEY status (status),
+	KEY date_created (date_created_gmt),
+	KEY customer_id_billing_email (customer_id, billing_email),
+	KEY billing_email (billing_email),
+	KEY type_status (type, status),
+	KEY parent_order_id (parent_order_id),
+	KEY date_updated (date_updated_gmt)
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by require('wp-admin/plugins.php'), activate_plugin, do_action('activate_woocommerce/woocommerce.php'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Install::install, WC_Install::create_options, add_option, do_action('added_option'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\WooCommerce\Internal\Features\FeaturesController->__call, call_user_func_array, Automattic\WooCommerce\Internal\Features\FeaturesController->process_added_option, Automattic\WooCommerce\Internal\Features\FeaturesController->process_updated_option, do_action('woocommerce_feature_enabled_changed'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\WooCommerce\Internal\DataStores\Orders\CustomOrdersTableController->__call, call_user_func_array, Automattic\WooCommerce\Internal\DataStores\Orders\CustomOrdersTableController->handle_data_sync_option_changed, Automattic\WooCommerce\Internal\DataStores\Orders\DataSynchronizer->create_database_tables, Automattic\WooCommerce\Internal\Utilities\DatabaseUtil->dbdelta, dbDelta
+[01-Sep-2023 11:02:13 UTC] WordPress database error Specified key was too long; max key length is 1000 bytes for query 
+CREATE TABLE po1_wc_orders_meta (
+	id bigint(20) unsigned auto_increment primary key,
+	order_id bigint(20) unsigned null,
+	meta_key varchar(255),
+	meta_value text null,
+	KEY meta_key_value (meta_key, meta_value(100)),
+	KEY order_id_meta_key_meta_value (order_id, meta_key, meta_value(100))
+) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by require('wp-admin/plugins.php'), activate_plugin, do_action('activate_woocommerce/woocommerce.php'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Install::install, WC_Install::create_options, add_option, do_action('added_option'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\WooCommerce\Internal\Features\FeaturesController->__call, call_user_func_array, Automattic\WooCommerce\Internal\Features\FeaturesController->process_added_option, Automattic\WooCommerce\Internal\Features\FeaturesController->process_updated_option, do_action('woocommerce_feature_enabled_changed'), WP_Hook->do_action, WP_Hook->apply_filters, Automattic\WooCommerce\Internal\DataStores\Orders\CustomOrdersTableController->__call, call_user_func_array, Automattic\WooCommerce\Internal\DataStores\Orders\CustomOrdersTableController->handle_data_sync_option_changed, Automattic\WooCommerce\Internal\DataStores\Orders\DataSynchronizer->create_database_tables, Automattic\WooCommerce\Internal\Utilities\DatabaseUtil->dbdelta, dbDelta
+[26-Dec-2023 13:38:41 UTC] PHP Warning:  Attempt to read property "ID" on null in /home/ethicals/public_html/wp-content/themes/charityhub-child/functions.php on line 379
+[26-Dec-2023 13:38:41 UTC] PHP Warning:  Constant PDB_MULTILINGUAL already defined in /home/ethicals/public_html/wp-config.php on line 104
+[26-Dec-2023 13:38:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ethicals/public_html/wp-content/themes/charityhub-child/functions.php:379) in /home/ethicals/public_html/wp-admin/includes/misc.php on line 1431
+[26-Dec-2023 13:38:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ethicals/public_html/wp-content/themes/charityhub-child/functions.php:379) in /home/ethicals/public_html/wp-includes/functions.php on line 7049
+[26-Dec-2023 13:38:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ethicals/public_html/wp-content/themes/charityhub-child/functions.php:379) in /home/ethicals/public_html/wp-admin/admin-header.php on line 9

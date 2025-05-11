@@ -1,0 +1,24 @@
+[22-May-2021 23:36:16 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/ethicals/public_html/wp-content/themes/charityhub/404.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/ethicals/public_html/wp-content/themes/charityhub/404.php on line 6
+[22-Nov-2022 23:35:10 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/ethicals/public_html/wp-content/themes/charityhub/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/ethicals/public_html/wp-content/themes/charityhub/index.php on line 1
+[22-Nov-2022 23:35:10 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/ethicals/public_html/wp-content/themes/charityhub/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/ethicals/public_html/wp-content/themes/charityhub/index.php on line 1
+[22-Nov-2022 23:35:11 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/ethicals/public_html/wp-content/themes/charityhub/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/ethicals/public_html/wp-content/themes/charityhub/index.php on line 1
+[22-Nov-2022 23:35:11 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/ethicals/public_html/wp-content/themes/charityhub/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/ethicals/public_html/wp-content/themes/charityhub/index.php on line 1
+[22-Nov-2022 23:35:11 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/ethicals/public_html/wp-content/themes/charityhub/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/ethicals/public_html/wp-content/themes/charityhub/index.php on line 1

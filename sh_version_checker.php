@@ -1,0 +1,1 @@
+<?php print "SH_PHP_VERSION:".phpversion(); ?>

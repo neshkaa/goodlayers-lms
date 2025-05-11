@@ -1,0 +1,108 @@
+[09-Jul-2023 08:58:24 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function get_locale() in /home/ethicals/public_html/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ethicals/public_html/wp-admin/includes/admin.php on line 16
+[10-Jul-2023 17:04:00 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function get_locale() in /home/ethicals/public_html/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ethicals/public_html/wp-admin/includes/admin.php on line 16
+[10-Jul-2023 17:04:01 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function get_locale() in /home/ethicals/public_html/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ethicals/public_html/wp-admin/includes/admin.php on line 16
+[11-Jul-2023 10:49:36 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function get_locale() in /home/ethicals/public_html/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ethicals/public_html/wp-admin/includes/admin.php on line 16
+[11-Jul-2023 13:46:19 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function get_locale() in /home/ethicals/public_html/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ethicals/public_html/wp-admin/includes/admin.php on line 16
+[11-Jul-2023 14:27:59 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function get_locale() in /home/ethicals/public_html/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ethicals/public_html/wp-admin/includes/admin.php on line 16
+[12-Jul-2023 01:50:03 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function get_locale() in /home/ethicals/public_html/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ethicals/public_html/wp-admin/includes/admin.php on line 16
+[12-Jul-2023 22:51:55 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function get_locale() in /home/ethicals/public_html/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ethicals/public_html/wp-admin/includes/admin.php on line 16
+[02-Sep-2023 17:36:17 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function get_locale() in /home/ethicals/public_html/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ethicals/public_html/wp-admin/includes/admin.php on line 16
+[10-Sep-2023 22:29:43 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function get_locale() in /home/ethicals/public_html/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ethicals/public_html/wp-admin/includes/admin.php on line 16
+[10-Sep-2023 23:31:16 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function get_locale() in /home/ethicals/public_html/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ethicals/public_html/wp-admin/includes/admin.php on line 16
+[11-Sep-2023 01:19:08 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function get_locale() in /home/ethicals/public_html/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ethicals/public_html/wp-admin/includes/admin.php on line 16
+[11-Sep-2023 17:41:36 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function get_locale() in /home/ethicals/public_html/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ethicals/public_html/wp-admin/includes/admin.php on line 16
+[12-Sep-2023 05:21:03 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function get_locale() in /home/ethicals/public_html/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ethicals/public_html/wp-admin/includes/admin.php on line 16
+[12-Sep-2023 05:21:04 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function get_locale() in /home/ethicals/public_html/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ethicals/public_html/wp-admin/includes/admin.php on line 16
+[13-Sep-2023 01:51:32 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function get_locale() in /home/ethicals/public_html/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ethicals/public_html/wp-admin/includes/admin.php on line 16
+[13-Sep-2023 17:04:17 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function get_locale() in /home/ethicals/public_html/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ethicals/public_html/wp-admin/includes/admin.php on line 16
+[18-Feb-2024 18:16:18 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home/ethicals/public_html/wp-admin/includes/file.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ethicals/public_html/wp-admin/includes/file.php on line 16
+[27-Feb-2024 13:32:47 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home/ethicals/public_html/wp-admin/includes/file.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ethicals/public_html/wp-admin/includes/file.php on line 16
+[23-Mar-2024 07:09:18 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home/ethicals/public_html/wp-admin/includes/file.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ethicals/public_html/wp-admin/includes/file.php on line 16
+[26-Mar-2024 17:05:01 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home/ethicals/public_html/wp-admin/includes/file.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ethicals/public_html/wp-admin/includes/file.php on line 16
+[29-Mar-2024 20:22:29 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home/ethicals/public_html/wp-admin/includes/file.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ethicals/public_html/wp-admin/includes/file.php on line 16
+[05-Apr-2024 17:14:57 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home/ethicals/public_html/wp-admin/includes/file.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ethicals/public_html/wp-admin/includes/file.php on line 16
+[19-Apr-2024 09:22:57 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home/ethicals/public_html/wp-admin/includes/file.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ethicals/public_html/wp-admin/includes/file.php on line 16
+[26-Apr-2024 10:11:01 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home/ethicals/public_html/wp-admin/includes/file.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ethicals/public_html/wp-admin/includes/file.php on line 16
+[28-Apr-2024 03:24:04 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home/ethicals/public_html/wp-admin/includes/file.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ethicals/public_html/wp-admin/includes/file.php on line 16
+[29-Apr-2024 08:32:43 Europe/Sofia] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home/ethicals/public_html/wp-admin/includes/file.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ethicals/public_html/wp-admin/includes/file.php on line 16
