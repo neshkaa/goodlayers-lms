@@ -1,0 +1,5 @@
+@media print {
+
+/* this prevents the search controls from printing */.pdb-searchform {	display:none;}
+
+}

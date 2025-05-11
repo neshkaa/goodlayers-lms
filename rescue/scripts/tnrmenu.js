@@ -26,6 +26,7 @@ window.addEventListener('DOMContentLoaded', (click) => {
         });
     };
 
+
 navSlide ();
 
 });

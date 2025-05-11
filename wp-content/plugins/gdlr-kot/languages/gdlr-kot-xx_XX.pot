@@ -1,0 +1,417 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Goodlayers Kot\n"
+"POT-Creation-Date: 2014-04-12 21:27+0700\n"
+"PO-Revision-Date: 2014-04-12 21:27+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: C:\\AppServ\\www\\charityhub\\wp-content\\plugins\\gdlr-"
+"kot\\\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: gdlr-kot-item.php:101
+msgid "All"
+msgstr ""
+
+#: gdlr-kot-item.php:206
+msgid "Client"
+msgstr ""
+
+#: gdlr-kot-item.php:215 gdlr-kot-option.php:86
+msgid "Skills"
+msgstr ""
+
+#: gdlr-kot-item.php:224 gdlr-kot-option.php:90
+msgid "Website"
+msgstr ""
+
+#: gdlr-kot-item.php:234
+msgid "Tags"
+msgstr ""
+
+#: gdlr-kot-option.php:22
+msgid "Goodlayers Kot Option"
+msgstr ""
+
+#: gdlr-kot-option.php:32
+msgid "Page Layout"
+msgstr ""
+
+#: gdlr-kot-option.php:45
+msgid "Left Sidebar"
+msgstr ""
+
+#: gdlr-kot-option.php:51
+msgid "Right Sidebar"
+msgstr ""
+
+#: gdlr-kot-option.php:57
+msgid "Hide Kot Info"
+msgstr ""
+
+#: gdlr-kot-option.php:62
+msgid "Hide Kot Description"
+msgstr ""
+
+#: gdlr-kot-option.php:70
+msgid "Page Option"
+msgstr ""
+
+#: gdlr-kot-option.php:73
+msgid "Page Caption"
+msgstr ""
+
+#: gdlr-kot-option.php:77
+msgid "Header Background Image"
+msgstr ""
+
+#: gdlr-kot-option.php:78
+msgid "Upload"
+msgstr ""
+
+#: gdlr-kot-option.php:82
+msgid "Clients"
+msgstr ""
+
+#: gdlr-kot-option.php:94
+msgid "Thumbnail Type"
+msgstr ""
+
+#: gdlr-kot-option.php:97
+msgid "Feature Image"
+msgstr ""
+
+#: gdlr-kot-option.php:98 gdlr-kot-option.php:141
+msgid "Video"
+msgstr ""
+
+#: gdlr-kot-option.php:99 gdlr-kot-option.php:131
+#: gdlr-kot-option.php:142 gdlr-kot-option.php:159
+msgid "Slider"
+msgstr ""
+
+#: gdlr-kot-option.php:104
+msgid "Thumbnail Link"
+msgstr ""
+
+#: gdlr-kot-option.php:107
+msgid "Link to Kot"
+msgstr ""
+
+#: gdlr-kot-option.php:108
+msgid "Lightbox to Full Image"
+msgstr ""
+
+#: gdlr-kot-option.php:109
+msgid "Link to URL"
+msgstr ""
+
+#: gdlr-kot-option.php:110
+msgid "Lightbox Image"
+msgstr ""
+
+#: gdlr-kot-option.php:111
+msgid "Lightbox Video"
+msgstr ""
+
+#: gdlr-kot-option.php:116
+msgid "Specify Url"
+msgstr ""
+
+#: gdlr-kot-option.php:121
+msgid "Open In New Tab"
+msgstr ""
+
+#: gdlr-kot-option.php:126 gdlr-kot-option.php:154
+msgid "Video Url"
+msgstr ""
+
+#: gdlr-kot-option.php:136
+msgid "Inside Kot Thumbnail Type"
+msgstr ""
+
+#: gdlr-kot-option.php:139
+msgid "Same As Thumbnail Type"
+msgstr ""
+
+#: gdlr-kot-option.php:140
+msgid "Image"
+msgstr ""
+
+#: gdlr-kot-option.php:143
+msgid "Gallery"
+msgstr ""
+
+#: gdlr-kot-option.php:144
+msgid "Stack Images"
+msgstr ""
+
+#: gdlr-kot-option.php:149
+msgid "Image Url"
+msgstr ""
+
+#: gdlr-kot-option.php:164
+msgid "Inside Gallery Columns"
+msgstr ""
+
+#: gdlr-kot-option.php:171
+msgid "Inside Gallery Thumbnail Size"
+msgstr ""
+
+#: gdlr-kot-option.php:177
+msgid "Enable Inside Gallery Caption"
+msgstr ""
+
+#: gdlr-kot-option.php:198 gdlr-kot.php:42
+msgid "Kot"
+msgstr ""
+
+#: gdlr-kot-option.php:202
+msgid "Title Type"
+msgstr ""
+
+#: gdlr-kot-option.php:205
+msgid "None"
+msgstr ""
+
+#: gdlr-kot-option.php:206
+msgid "Title With Icon"
+msgstr ""
+
+#: gdlr-kot-option.php:207
+msgid "Left Align With Icon"
+msgstr ""
+
+#: gdlr-kot-option.php:208
+msgid "Center Align With Caption"
+msgstr ""
+
+#: gdlr-kot-option.php:212
+msgid "Icon"
+msgstr ""
+
+#: gdlr-kot-option.php:217 gdlr-kot-option.php:304
+msgid "Title"
+msgstr ""
+
+#: gdlr-kot-option.php:222
+msgid "Caption"
+msgstr ""
+
+#: gdlr-kot-option.php:227
+msgid "Title Right Text"
+msgstr ""
+
+#: gdlr-kot-option.php:229
+msgid "View All Works"
+msgstr ""
+
+#: gdlr-kot-option.php:233
+msgid "Title Right Text Link"
+msgstr ""
+
+#: gdlr-kot-option.php:238
+msgid "Category"
+msgstr ""
+
+#: gdlr-kot-option.php:241
+msgid ""
+"You can use Ctrl/Command button to select multiple categories or remove the "
+"selected category. <br><br> Leave this field blank to select all categories."
+msgstr ""
+
+#: gdlr-kot-option.php:244
+msgid "Tag"
+msgstr ""
+
+#: gdlr-kot-option.php:247
+msgid "Will be ignored when the kot filter option is enabled."
+msgstr ""
+
+#: gdlr-kot-option.php:250
+msgid "Kot Style"
+msgstr ""
+
+#: gdlr-kot-option.php:253
+msgid "Classic Style"
+msgstr ""
+
+#: gdlr-kot-option.php:254
+msgid "Classic No Space Style"
+msgstr ""
+
+#: gdlr-kot-option.php:255
+msgid "Modern Style"
+msgstr ""
+
+#: gdlr-kot-option.php:256
+msgid "Modern No Space Style"
+msgstr ""
+
+#: gdlr-kot-option.php:260
+msgid "Num Fetch"
+msgstr ""
+
+#: gdlr-kot-option.php:263
+msgid "Specify the number of kots you want to pull out."
+msgstr ""
+
+#: gdlr-kot-option.php:266
+msgid "Kot Size"
+msgstr ""
+
+#: gdlr-kot-option.php:277
+msgid "Kot Layout Order"
+msgstr ""
+
+#: gdlr-kot-option.php:280
+msgid "FitRows ( Order items by row )"
+msgstr ""
+
+#: gdlr-kot-option.php:281
+msgid "Masonry ( Order items by spaces )"
+msgstr ""
+
+#: gdlr-kot-option.php:282
+msgid "Carousel ( Only For Grid And Modern Style )"
+msgstr ""
+
+#: gdlr-kot-option.php:284
+msgid "You can see an example of these two layout here"
+msgstr ""
+
+#: gdlr-kot-option.php:288
+msgid "Enable Kot filter"
+msgstr ""
+
+#: gdlr-kot-option.php:291
+msgid ""
+"*** You have to select only 1 ( or none ) kot category when enable "
+"this option"
+msgstr ""
+
+#: gdlr-kot-option.php:294
+msgid "Thumbnail Size"
+msgstr ""
+
+#: gdlr-kot-option.php:297
+msgid "Only effects to <strong>standard and gallery post format</strong>"
+msgstr ""
+
+#: gdlr-kot-option.php:300
+msgid "Order By"
+msgstr ""
+
+#: gdlr-kot-option.php:303
+msgid "Publish Date"
+msgstr ""
+
+#: gdlr-kot-option.php:305
+msgid "Random"
+msgstr ""
+
+#: gdlr-kot-option.php:309
+msgid "Order"
+msgstr ""
+
+#: gdlr-kot-option.php:312
+msgid "Descending Order"
+msgstr ""
+
+#: gdlr-kot-option.php:313
+msgid "Ascending Order"
+msgstr ""
+
+#: gdlr-kot-option.php:317
+msgid "Enable Pagination"
+msgstr ""
+
+#: gdlr-kot-option.php:321
+msgid "Margin Bottom"
+msgstr ""
+
+#: gdlr-kot-option.php:324
+msgid "Spaces after ending of this item"
+msgstr ""
+
+#: gdlr-kot.php:41 gdlr-kot.php:53
+msgid "Kots"
+msgstr ""
+
+#: gdlr-kot.php:43
+msgid "Add New"
+msgstr ""
+
+#: gdlr-kot.php:44
+msgid "Add New Kot"
+msgstr ""
+
+#: gdlr-kot.php:45
+msgid "Edit Kot"
+msgstr ""
+
+#: gdlr-kot.php:46
+msgid "New Kot"
+msgstr ""
+
+#: gdlr-kot.php:47
+msgid "All Kots"
+msgstr ""
+
+#: gdlr-kot.php:48
+msgid "View Kot"
+msgstr ""
+
+#: gdlr-kot.php:49
+msgid "Search Kot"
+msgstr ""
+
+#: gdlr-kot.php:50
+msgid "No kots found"
+msgstr ""
+
+#: gdlr-kot.php:51
+msgid "No kots found in Trash"
+msgstr ""
+
+#: gdlr-kot.php:74
+msgid "Kot Categories"
+msgstr ""
+
+#: gdlr-kot.php:75
+msgid "Kot Category"
+msgstr ""
+
+#: gdlr-kot.php:84
+msgid "Kot Tags"
+msgstr ""
+
+#: gdlr-kot.php:85
+msgid "Kot Tag"
+msgstr ""
+
+#: single-kot-blog.php:46 single-kot.php:89
+msgid "Pages:"
+msgstr ""
+
+#: single-kot-blog.php:67
+msgid "About Post Author"
+msgstr ""
+
+#: single-kot.php:48
+msgid "Project Info"
+msgstr ""
+
+#: single-kot.php:84
+msgid "Project Description"
+msgstr ""
+
+#: single-kot.php:132
+msgid "Related Projects"
+msgstr ""

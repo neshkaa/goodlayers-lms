@@ -1,0 +1,354 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Goodlayer Cause\n"
+"POT-Creation-Date: 2014-04-12 21:26+0700\n"
+"PO-Revision-Date: 2014-04-12 21:26+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: C:\\AppServ\\www\\charityhub\\wp-content\\plugins\\gdlr-"
+"cause\\\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: gdlr-cause-item.php:40
+msgid "Download PDF"
+msgstr ""
+
+#: gdlr-cause-item.php:91
+msgid "Donate Now"
+msgstr ""
+
+#: gdlr-cause-item.php:114
+msgid "Donated"
+msgstr ""
+
+#: gdlr-cause-item.php:119
+msgid "To Go"
+msgstr ""
+
+#: gdlr-cause-item.php:433
+msgid "Keywords"
+msgstr ""
+
+#: gdlr-cause-item.php:436 gdlr-cause-option.php:170
+msgid "Category"
+msgstr ""
+
+#: gdlr-cause-item.php:444
+msgid "Search"
+msgstr ""
+
+#: gdlr-cause-option.php:22
+msgid "Goodlayers Cause Option"
+msgstr ""
+
+#: gdlr-cause-option.php:32
+msgid "Page Layout"
+msgstr ""
+
+#: gdlr-cause-option.php:46
+msgid "Left Sidebar"
+msgstr ""
+
+#: gdlr-cause-option.php:52
+msgid "Right Sidebar"
+msgstr ""
+
+#: gdlr-cause-option.php:61
+msgid "Page Option"
+msgstr ""
+
+#: gdlr-cause-option.php:64
+msgid "Page Caption"
+msgstr ""
+
+#: gdlr-cause-option.php:68
+msgid "Header Background Image"
+msgstr ""
+
+#: gdlr-cause-option.php:69 gdlr-cause-option.php:84
+msgid "Upload"
+msgstr ""
+
+#: gdlr-cause-option.php:73
+msgid "Goal Of Donation"
+msgstr ""
+
+#: gdlr-cause-option.php:75
+msgid "** Only number with no comma is allowed Here"
+msgstr ""
+
+#: gdlr-cause-option.php:78
+msgid "Current Funding"
+msgstr ""
+
+#: gdlr-cause-option.php:80
+msgid ""
+"** Only number with no comma is allowed Here. This will overwrite the value "
+"received via paypal."
+msgstr ""
+
+#: gdlr-cause-option.php:83
+msgid "PDF File (Downloaded)"
+msgstr ""
+
+#: gdlr-cause-option.php:89
+msgid "Donation Form"
+msgstr ""
+
+#: gdlr-cause-option.php:107
+msgid "Cause Search"
+msgstr ""
+
+#: gdlr-cause-option.php:111 gdlr-cause-option.php:149
+#: gdlr-cause-option.php:231 gdlr-cause-option.php:263
+msgid "Title"
+msgstr ""
+
+#: gdlr-cause-option.php:113
+msgid "Search For Causes"
+msgstr ""
+
+#: gdlr-cause-option.php:116 gdlr-cause-option.php:154
+msgid "Caption"
+msgstr ""
+
+#: gdlr-cause-option.php:118
+msgid ""
+"Please fill keywords in text box and select particular category to search "
+"for all causes."
+msgstr ""
+
+#: gdlr-cause-option.php:121 gdlr-cause-option.php:250
+#: gdlr-cause-option.php:284
+msgid "Margin Bottom"
+msgstr ""
+
+#: gdlr-cause-option.php:124 gdlr-cause-option.php:253
+#: gdlr-cause-option.php:287
+msgid "Spaces after ending of this item"
+msgstr ""
+
+#: gdlr-cause-option.php:130 gdlr-cause.php:40
+msgid "Cause"
+msgstr ""
+
+#: gdlr-cause-option.php:134
+msgid "Title Type"
+msgstr ""
+
+#: gdlr-cause-option.php:137
+msgid "None"
+msgstr ""
+
+#: gdlr-cause-option.php:138
+msgid "Title With Icon"
+msgstr ""
+
+#: gdlr-cause-option.php:139
+msgid "Left Align With Icon"
+msgstr ""
+
+#: gdlr-cause-option.php:140
+msgid "Center Align With Caption"
+msgstr ""
+
+#: gdlr-cause-option.php:144
+msgid "Icon"
+msgstr ""
+
+#: gdlr-cause-option.php:159
+msgid "Title Right Text"
+msgstr ""
+
+#: gdlr-cause-option.php:161
+msgid "View All Causes"
+msgstr ""
+
+#: gdlr-cause-option.php:165
+msgid "Title Right Text Link"
+msgstr ""
+
+#: gdlr-cause-option.php:173
+msgid ""
+"You can use Ctrl/Command button to select multiple categories or remove the "
+"selected category. <br><br> Leave this field blank to select all categories."
+msgstr ""
+
+#: gdlr-cause-option.php:176
+msgid "Cause Style"
+msgstr ""
+
+#: gdlr-cause-option.php:179
+msgid "Grid Style"
+msgstr ""
+
+#: gdlr-cause-option.php:180
+msgid "Medium Style"
+msgstr ""
+
+#: gdlr-cause-option.php:181
+msgid "Full Style"
+msgstr ""
+
+#: gdlr-cause-option.php:185
+msgid "Cause Size"
+msgstr ""
+
+#: gdlr-cause-option.php:197
+msgid "Cause Layout"
+msgstr ""
+
+#: gdlr-cause-option.php:200
+msgid "FitRows ( Order items by row )"
+msgstr ""
+
+#: gdlr-cause-option.php:201
+msgid "Masonry ( Order items by spaces )"
+msgstr ""
+
+#: gdlr-cause-option.php:202
+msgid "Carousel ( Only For Grid And Modern Style )"
+msgstr ""
+
+#: gdlr-cause-option.php:205
+msgid "You can see an example of these two layout here"
+msgstr ""
+
+#: gdlr-cause-option.php:209
+msgid "Num Fetch"
+msgstr ""
+
+#: gdlr-cause-option.php:212
+msgid "Specify the number of causes you want to pull out."
+msgstr ""
+
+#: gdlr-cause-option.php:215 gdlr-cause-option.php:273
+msgid "Num Excerpt (Word)"
+msgstr ""
+
+#: gdlr-cause-option.php:218
+msgid ""
+"This is a number of word (decided by spaces) that you want to show on the "
+"post excerpt. <strong>Use 0 to hide the excerpt, -1 to show full posts and "
+"use the wordpress more tag</strong>."
+msgstr ""
+
+#: gdlr-cause-option.php:221
+msgid "Thumbnail Size"
+msgstr ""
+
+#: gdlr-cause-option.php:224
+msgid "Only effects to <strong>standard and gallery post format</strong>"
+msgstr ""
+
+#: gdlr-cause-option.php:227
+msgid "Order By"
+msgstr ""
+
+#: gdlr-cause-option.php:230
+msgid "Publish Date"
+msgstr ""
+
+#: gdlr-cause-option.php:232
+msgid "Random"
+msgstr ""
+
+#: gdlr-cause-option.php:233
+msgid "Almost Complete Cause"
+msgstr ""
+
+#: gdlr-cause-option.php:234
+msgid "Complete Funding Cause"
+msgstr ""
+
+#: gdlr-cause-option.php:238
+msgid "Order"
+msgstr ""
+
+#: gdlr-cause-option.php:241
+msgid "Descending Order"
+msgstr ""
+
+#: gdlr-cause-option.php:242
+msgid "Ascending Order"
+msgstr ""
+
+#: gdlr-cause-option.php:246
+msgid "Enable Pagination"
+msgstr ""
+
+#: gdlr-cause-option.php:259 gdlr-cause-option.php:265
+msgid "Urgent Cause"
+msgstr ""
+
+#: gdlr-cause-option.php:268
+msgid "Select Cause"
+msgstr ""
+
+#: gdlr-cause-option.php:276
+msgid ""
+"This is a number of word (decided by spaces) that you want to show on the "
+"post excerpt."
+msgstr ""
+
+#: gdlr-cause-option.php:279
+msgid "Min Height (Pixel)"
+msgstr ""
+
+#: gdlr-cause.php:39 gdlr-cause.php:51
+msgid "Causes"
+msgstr ""
+
+#: gdlr-cause.php:41
+msgid "Add New"
+msgstr ""
+
+#: gdlr-cause.php:42
+msgid "Add New Cause"
+msgstr ""
+
+#: gdlr-cause.php:43
+msgid "Edit Cause"
+msgstr ""
+
+#: gdlr-cause.php:44
+msgid "New Cause"
+msgstr ""
+
+#: gdlr-cause.php:45
+msgid "All Causes"
+msgstr ""
+
+#: gdlr-cause.php:46
+msgid "View Cause"
+msgstr ""
+
+#: gdlr-cause.php:47
+msgid "Search Cause"
+msgstr ""
+
+#: gdlr-cause.php:48
+msgid "No causes found"
+msgstr ""
+
+#: gdlr-cause.php:49
+msgid "No causes found in Trash"
+msgstr ""
+
+#: gdlr-cause.php:72
+msgid "Cause Categories"
+msgstr ""
+
+#: gdlr-cause.php:73
+msgid "Cause Category"
+msgstr ""
+
+#: single-cause.php:38
+msgid "Donation Goal For This Project is"
+msgstr ""

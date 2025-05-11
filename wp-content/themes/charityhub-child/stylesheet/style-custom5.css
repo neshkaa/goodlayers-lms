@@ -1,0 +1,22 @@
+@font-face {
+font-family: "Simbal";
+src: url("https://rescue.thelastcage.org/wp-content/uploads/sites/5/2021/01/Simbal-Regular.eot");
+src: url("https://rescue.thelastcage.org/wp-content/uploads/sites/5/2021/01/Simbal-Regular.eot?#iefix") format("embedded-opentype"), 
+url("https://rescue.thelastcage.org/wp-content/uploads/sites/5/2021/01/Simbal-Regular.ttf") format("truetype");
+}
+ @font-face {
+    font-family: "Firenight";
+src: url("https://rescue.thelastcage.org/wp-content/uploads/sites/5/2021/01/Firenight-Regular.eot");
+src: url("https://rescue.thelastcage.org/wp-content/uploads/sites/5/2021/01/Firenight-Regular.eot?#iefix") format("embedded-opentype"), 
+url("https://rescue.thelastcage.org/wp-content/uploads/sites/5/2021/01/Firenight-Regular.ttf") format("truetype");
+    }
+    
+    @font-face {
+font-family: "Oswald";
+src: url("https://rescue.thelastcage.org/wp-content/uploads/sites/5/2023/12/Oswald-Medium.eot");
+src: url("https://rescue.thelastcage.org/wp-content/uploads/sites/5/2023/12/Oswald-Medium.eot?#iefix") format("embedded-opentype"), 
+url("https://rescue.thelastcage.org/wp-content/uploads/sites/5/2023/12/Oswald-Medium.ttf") format("truetype");
+}
+
+
+    

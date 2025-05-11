@@ -1,0 +1,698 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pdb-multi-search\n"
+"POT-Creation-Date: 2024-10-10 10:26-1000\n"
+"PO-Revision-Date: 2024-10-10 10:27-1000\n"
+"Last-Translator: Roland Barker <webdesign@xnau.com>\n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext;_n:1,2;__ngettext_noop;_n_noop;_x;"
+"_nx;_nx_noop;_ex;esc_attr__;esc_attr_e;esc_attr_x;esc_html__;esc_html_e;"
+"esc_html_x;_c;_nc;n\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: pdbcms/Assets.php:100
+#, php-format
+msgctxt "substitution is the name of the field"
+msgid "Remove the %s field?"
+msgstr "Supprimer le champ %s ?"
+
+#: pdbcms/Plugin.php:120
+msgid "Combo Multi Search"
+msgstr "Combo Multi Search"
+
+#: pdbcms/Plugin.php:123
+msgid "Clear"
+msgstr "Effacer"
+
+#: pdbcms/Plugin.php:124 pdbcms/Plugin.php:791
+msgid "Search"
+msgstr "Rechercher"
+
+#: pdbcms/Plugin.php:125
+msgid "Any"
+msgstr "Tout"
+
+#: pdbcms/Plugin.php:126
+msgid "Available Fields"
+msgstr "Champs disponibles"
+
+#: pdbcms/Plugin.php:127
+msgid "Combo Search Fields"
+msgstr "Champs Rechercher"
+
+#: pdbcms/Plugin.php:372
+#, php-format
+msgid "Search words must be at least %s characters in length."
+msgstr "Les mots recherchés doivent comporter au moins %s caractères."
+
+#: pdbcms/Plugin.php:382
+msgid "Please select something to search for."
+msgstr "Veuillez sélectionner quelque chose à rechercher."
+
+#: pdbcms/Plugin.php:386
+msgid "Please complete all search fields."
+msgstr "Choisissez une colonne pour la recherche SVP."
+
+#: pdbcms/Plugin.php:695
+msgid "General Settings"
+msgstr "Paramètres généraux"
+
+#: pdbcms/Plugin.php:699
+msgid "Combination Search Settings"
+msgstr "Paramètres de recherche combinée"
+
+#: pdbcms/Plugin.php:703
+msgid "Multi Search Settings"
+msgstr "Paramètres de recherche multiples"
+
+#: pdbcms/Plugin.php:713
+msgid "Enable Filter Mode"
+msgstr "Activer le mode filtre"
+
+#: pdbcms/Plugin.php:716
+msgid ""
+"If checked, only records which match <strong>all</strong> search selectors "
+"will be shown. If unchecked, records which match <strong>any</strong> of the "
+"search selectors will be shown"
+msgstr ""
+"Si cette option est cochée, seuls les enregistrements correspondant à "
+"<strong>tous les</strong> sélecteurs de recherche seront affichés. Si cette "
+"option n’est pas cochée, les enregistrements correspondant à <strong>l’un</"
+"strong> des sélecteurs de recherche seront affichés"
+
+#: pdbcms/Plugin.php:723
+msgid "Remember the Last Search"
+msgstr "Se souvenir de la dernière recherche"
+
+#: pdbcms/Plugin.php:726
+msgid ""
+"If checked, the search page will restore the search and results when "
+"returning to the page."
+msgstr ""
+"Si cette option est cochée, la page de recherche restaurera la recherche et "
+"les résultats lors du retour à la page."
+
+#: pdbcms/Plugin.php:733
+msgid "Require all Search Fields"
+msgstr "Champs Rechercher"
+
+#: pdbcms/Plugin.php:736
+msgid "If checked, all search fields must have a search value."
+msgstr ""
+"Si cette option est cochée, tous les champs de recherche doivent avoir une "
+"valeur de recherche."
+
+#: pdbcms/Plugin.php:743
+msgid "Minimum Search Term Length"
+msgstr "Longueur minimale du terme de recherche"
+
+#: pdbcms/Plugin.php:746
+msgid "Sets the global minimum length for a valid search term in a text input."
+msgstr ""
+"Définit la longueur minimale globale d’un terme de recherche valide dans une "
+"entrée de texte."
+
+#: pdbcms/Plugin.php:755
+msgid "Enable Field Multiple Search Modes"
+msgstr "Activer les modes de recherche multiples sur le champ"
+
+#: pdbcms/Plugin.php:758
+msgid ""
+"If checked, it will be possible to configure fields to appear in both Multi-"
+"Search and Combo Search. Note that this can lead to unexpected results if "
+"not configured correctly."
+msgstr ""
+"Si cette option est cochée, il sera possible de configurer les champs pour "
+"qu’ils apparaissent à la fois dans Multi-Search et Combo Search. Notez que "
+"cela peut entraîner des résultats inattendus s’il n’est pas configuré "
+"correctement."
+
+#: pdbcms/Plugin.php:767
+msgid "Combination Search Fields"
+msgstr "Champs de recherche combinés"
+
+#: pdbcms/Plugin.php:771
+msgid "Select fields on the left to include in the Combination Search."
+msgstr "Sélectionnez les champs à gauche à inclure dans la recherche combinée."
+
+#: pdbcms/Plugin.php:771
+msgid "Select fields on the right to remove from Combo Search."
+msgstr "Sélectionnez les champs à droite à supprimer de la recherche combinée."
+
+#: pdbcms/Plugin.php:771
+msgid "Greyed-out items are assigned to Multi Search."
+msgstr "Les éléments grisés sont affectés à Multi Search."
+
+#: pdbcms/Plugin.php:778
+msgid "Combination Search Field Label"
+msgstr "Étiquette de champ de recherche combinée"
+
+#: pdbcms/Plugin.php:781
+msgid "Leave blank to not use a label."
+msgstr "Laissez vide pour ne pas utiliser d’étiquette."
+
+#: pdbcms/Plugin.php:789
+msgid "Combination Search Field Placeholder Text"
+msgstr "Texte d’espace réservé du champ de recherche combiné"
+
+#: pdbcms/Plugin.php:792
+msgid ""
+"Text to place in the text search field as a placeholder. Leave blank for no "
+"placeholder."
+msgstr ""
+"Texte à placer dans le champ de recherche de texte en tant qu’espace "
+"réservé. Laissez vide pour aucun espace réservé."
+
+#: pdbcms/Plugin.php:800
+msgid "Show the Combo Search Modifiers"
+msgstr "Afficher les modificateurs de recherche combinée"
+
+#: pdbcms/Plugin.php:803
+msgid ""
+"If checked, the user can choose the type of search to use (\"any,\" \"all,\" "
+"or \"phrase\"). If unchecked, the selection is not shown and the search will "
+"use the Default Search Modifier setting."
+msgstr ""
+"Si cette option est cochée, l’utilisateur peut choisir le type de recherche "
+"à utiliser (« any », « all » ou « phrase »). Si cette option n’est pas "
+"cochée, la sélection n’est pas affichée et la recherche utilisera le "
+"paramètre Modificateur de recherche par défaut."
+
+#: pdbcms/Plugin.php:810
+msgid "Default Search Modifier"
+msgstr "Modificateur de recherche par défaut"
+
+#: pdbcms/Plugin.php:814
+msgid ""
+"If user-selectable search modifiers are not shown, this is the modifier that "
+"will be used on combo searches."
+msgstr ""
+"Si les modificateurs de recherche sélectionnables par l’utilisateur ne sont "
+"pas affichés, il s’agit du modificateur qui sera utilisé pour les recherches "
+"de liste déroulante."
+
+#: pdbcms/Plugin.php:822 pdbcms/Plugin.php:930
+msgid "Whole Word Match Only"
+msgstr "Correspondance de mots entiers uniquement"
+
+#: pdbcms/Plugin.php:825 pdbcms/Plugin.php:933
+msgid ""
+"If checked, only whole words matching the search term will be included in "
+"the result."
+msgstr ""
+"Si cette option est cochée, seuls les mots entiers correspondant au terme "
+"recherché seront inclus dans le résultat."
+
+#: pdbcms/Plugin.php:833
+msgid "Whole Word Strict Matching"
+msgstr "Correspondance de mots entiers uniquement"
+
+#: pdbcms/Plugin.php:836
+msgid ""
+"When \"Whole Word Match Only\" is enabled and this is checked, the combo "
+"search term must match the full content of the database field."
+msgstr ""
+"Lorsque l’option « Correspondance de mot entier uniquement » est activée et "
+"que cette option est cochée, le terme de recherche combiné doit correspondre "
+"au contenu complet du champ de la base de données."
+
+#: pdbcms/Plugin.php:845
+msgid "Autocomplete Settings"
+msgstr "Paramètres de réglages automatiques"
+
+#: pdbcms/Plugin.php:855
+msgid "Use Autocomplete for Combo Search"
+msgstr "Utiliser la saisie semi-automatique pour la recherche combinée"
+
+#: pdbcms/Plugin.php:858
+msgid ""
+"If checked, search term suggestions (drawn from the fields included in the "
+"combo search) will be shown to the user as they type."
+msgstr ""
+"Si cette option est cochée, les suggestions de termes de recherche (tirées "
+"des champs inclus dans la recherche combinée) seront affichées à "
+"l’utilisateur au fur et à mesure de la saisie."
+
+#: pdbcms/Plugin.php:865
+msgid "Inline Autocomplete"
+msgstr "Saisie semi-automatique en ligne"
+
+#: pdbcms/Plugin.php:868
+msgid ""
+"If checked, search term suggestions will be generated inline from the list "
+"shortcode. This may be needed if you are using the list shortcode filter. "
+"(This setting may impact performance.)"
+msgstr ""
+"Si cette option est cochée, les suggestions de termes de recherche seront "
+"générées en ligne à partir du shortcode de la liste. Cela peut être "
+"nécessaire si vous utilisez le filtre de shortcode de liste. (Ce paramètre "
+"peut avoir un impact sur les performances.)"
+
+#: pdbcms/Plugin.php:875
+msgid "Combo Search Autocomplete Fields"
+msgstr "Champs de saisie semi-automatique de recherche combinée"
+
+#: pdbcms/Plugin.php:878
+msgid ""
+"Enter a comma-separated list of field names to index for the combo search "
+"autocomplete feature. Leave blank to use all the combo search fields."
+msgstr ""
+"Entrez une liste de noms de champs séparés par des virgules à indexer pour "
+"la fonctionnalité de saisie semi-automatique de recherche combinée. Laissez "
+"vide pour utiliser tous les champs de recherche combinée."
+
+#: pdbcms/Plugin.php:886
+msgid "First-Letter Autocomplete"
+msgstr "Saisie semi-automatique de la première lettre"
+
+#: pdbcms/Plugin.php:889
+msgid ""
+"If checked, the first letter of the autocomplete suggestions will match the "
+"first letter typed, and continue matching each letter typed."
+msgstr ""
+"Si cette option est cochée, la première lettre des suggestions de saisie "
+"semi-automatique correspondra à la première lettre tapée et continuera à "
+"correspondre à chaque lettre tapée."
+
+#: pdbcms/Plugin.php:896
+msgid "Autocomplete Auto-Search"
+msgstr "Recherche automatique de saisie semi-automatique"
+
+#: pdbcms/Plugin.php:899
+msgid ""
+"If checked, the search will be performed immediately if the user clicks on "
+"an autocomplete item."
+msgstr ""
+"Si cette option est cochée, la recherche sera effectuée immédiatement si "
+"l’utilisateur clique sur un élément de saisie semi-automatique."
+
+#: pdbcms/Plugin.php:906
+msgid "Autocomplete Minimum Search Length"
+msgstr "Longueur minimale de recherche de saisie semi-automatique"
+
+#: pdbcms/Plugin.php:909
+msgid ""
+"Sets the minimum number of characters that need to be typed in to begin "
+"showing the autocomplete selector."
+msgstr ""
+"Définit le nombre minimal de caractères à saisir pour commencer à afficher "
+"le sélecteur de saisie semi-automatique."
+
+#: pdbcms/Plugin.php:920
+msgid "Alphabetical Value Sorting"
+msgstr "Tri alphabétique des valeurs"
+
+#: pdbcms/Plugin.php:923
+msgid ""
+"If checked, the search selectors will be sorted alphabetically, if not, the "
+"sort will be determined by the order of the terms as found or defined."
+msgstr ""
+"Si cette option est cochée, les sélecteurs de recherche seront triés par "
+"ordre alphabétique, sinon, le tri sera déterminé par l’ordre des termes "
+"trouvés ou définis."
+
+#: pdbcms/Plugin.php:940
+msgid "Use Field Default Value"
+msgstr "Utiliser la valeur par défaut du champ"
+
+#: pdbcms/Plugin.php:943
+msgid ""
+"If checked, the default value in the field definition will be used in the "
+"multisearch control input. Individual field defaults can be set using the "
+"\"default\" attribute."
+msgstr ""
+"Si cette option est cochée, la valeur par défaut dans la définition de champ "
+"sera utilisée dans l’entrée du contrôle multirecherche. Les valeurs par "
+"défaut des champs individuels peuvent être définies à l’aide de l’attribut "
+"« default »."
+
+#: pdbcms/Plugin.php:996
+msgid ""
+"Combination Search is a single search input that searches on multiple "
+"columns for a match. You must tell the plugin which fields the Combo Search "
+"control will search in using the \"Combination Search Fields\" setting. If "
+"you leave this setting blank, the Combo Search control will not be shown."
+msgstr ""
+"La recherche combinée est une entrée de recherche unique qui recherche une "
+"correspondance sur plusieurs colonnes. Vous devez indiquer au plugin les "
+"champs dans lesquels le contrôle de recherche combinée recherchera à l’aide "
+"du paramètre « Champs de recherche combinés ». Si vous laissez ce paramètre "
+"vide, le contrôle Recherche de liste déroulante ne s’affiche pas."
+
+#: pdbcms/Plugin.php:997
+msgid ""
+"The search text will be used in one of three ways: \"ALL Words,\" meaning "
+"all of the words must be present in any one field in order for the record to "
+"be shown. \"ANY words,\" meaning at least one of the words must be found in "
+"the field. \"Exact Phrase\" means the whole contents of the search must be "
+"found as entered. Note that all three of these modes are the same if only "
+"one word is entered."
+msgstr ""
+"Le texte de recherche sera utilisé de l’une des trois façons suivantes : "
+"« TOUS les mots », ce qui signifie que tous les mots doivent être présents "
+"dans un champ pour que l’enregistrement soit affiché. TOUS les mots », c’est-"
+"à-dire qu’au moins un des mots doit être trouvé dans le champ. « Phrase "
+"exacte » signifie que tout le contenu de la recherche doit être trouvé tel "
+"qu’il a été entré. Notez que ces trois modes sont les mêmes si un seul mot "
+"est entré."
+
+#: pdbcms/Plugin.php:998
+msgid ""
+"This chart will help illustrate how the two settings that affect Combo "
+"Searches work. The \"result level\" scale goes from the strictest result set "
+"\"1\" to the loosest \"4\". The current setting is highlighted."
+msgstr ""
+"Ce graphique vous aidera à illustrer le fonctionnement des deux paramètres "
+"qui affectent les recherches de liste déroulante. L’échelle de « niveau de "
+"résultat » va du jeu de résultats le plus strict « 1 » au plus lâche « 4 ». "
+"Le paramètre actuel est mis en surbrillance."
+
+#: pdbcms/Plugin.php:1010
+msgid "Result Level"
+msgstr "Niveau de résultat"
+
+#: pdbcms/Plugin.php:1010
+msgid "Global Filter Mode"
+msgstr "Mode de filtrage global"
+
+#: pdbcms/Plugin.php:1010
+msgid "Search Modifier"
+msgstr "Modificateur de recherche"
+
+#: pdbcms/Plugin.php:1010
+msgid "search result will be:"
+msgstr "le résultat de la recherche sera:"
+
+#: pdbcms/Plugin.php:1013 pdbcms/Plugin.php:1019
+msgid "ON"
+msgstr "ON"
+
+#: pdbcms/Plugin.php:1013 pdbcms/Plugin.php:1016
+msgid "ALL"
+msgstr "TOUT"
+
+#: pdbcms/Plugin.php:1013
+msgid "all of the words in the search must be found in each combo field."
+msgstr ""
+"tous les mots de la recherche doivent être trouvés dans chaque champ combiné."
+
+#: pdbcms/Plugin.php:1016 pdbcms/Plugin.php:1022
+msgid "OFF"
+msgstr "OFF"
+
+#: pdbcms/Plugin.php:1016
+msgid "all of the words in the search must be found among the combo fields."
+msgstr ""
+"tous les mots de la recherche doivent être trouvés parmi les champs de la "
+"liste déroulante."
+
+#: pdbcms/Plugin.php:1019 pdbcms/Plugin.php:1022
+msgid "ANY"
+msgstr "AUCUN"
+
+#: pdbcms/Plugin.php:1019
+msgid ""
+"at least one of the words in the search must be found in each combo field."
+msgstr ""
+"au moins un des mots de la recherche doit être trouvé dans chaque champ de "
+"liste déroulante."
+
+#: pdbcms/Plugin.php:1022
+msgid ""
+"at least one of the words in the search must be found in at least one of the "
+"combo fields."
+msgstr ""
+"au moins un des mots de la recherche doit être trouvé dans au moins un des "
+"champs de la liste déroulante."
+
+#: pdbcms/Plugin.php:1029
+msgid ""
+"For the fields named in the \"Multi Search Fields\" setting, each type of "
+"field will use a control that is appropriate to that field: text fields use "
+"a text input, radio fields use a radio input, dropdown fields are filtered "
+"with a dropdown, and so forth. Only those fields named in the list of Multi "
+"Search fields will have a search control. If \"Filter Mode\" is ON <em>all</"
+"em> search parameters must match for a record to be shown, if filter mode is "
+"OFF, records which match <em>any</em> search field will be shown."
+msgstr ""
+"Pour les champs nommés dans le paramètre « Multi Search Fields », chaque "
+"type de champ utilisera un champ approprié à ce champ : les champs de texte "
+"utilisent une entrée de texte, les champs radio utilisent une entrée radio, "
+"les champs déroulants sont filtrés avec une liste déroulante, etc. Seuls les "
+"champs nommés dans la liste des champs Multi Search auront un contrôle de "
+"recherche. Si « Mode filtre » est activé, tous les paramètres de recherche "
+"doivent correspondre pour qu’un enregistrement soit affiché, si le mode de "
+"filtre est désactivé, <em>les</em> enregistrements qui correspondent à "
+"<em>n’importe quel</em> champ de recherche seront affichés."
+
+#: pdbcms/Plugin.php:1057
+msgid "Setup"
+msgstr "Configuration"
+
+#: pdbcms/Plugin.php:1059
+msgid ""
+"The Combo Multi Search Plugin provides multiple-mode search capability to "
+"Participants Database."
+msgstr ""
+"Le plugin Combo Multi Search fournit une capacité de recherche multimode à "
+"la base de données des participants."
+
+#: pdbcms/Plugin.php:1060
+msgid ""
+"To use this plugin, you must enable the plugin template in your list "
+"shortcode like this:"
+msgstr ""
+"Pour utiliser ce plugin, vous devez activer le modèle de plugin dans votre "
+"shortcode de liste comme ceci:"
+
+#: pdbcms/Plugin.php:1062
+msgid ""
+"You can combine this with any other shortcode attributes you want to use. "
+"For custom templates, see note below."
+msgstr ""
+"Vous pouvez combiner cela avec tout autre attribut de shortcode que vous "
+"souhaitez utiliser. Pour les modèles personnalisés, voir la remarque ci-"
+"dessous."
+
+#: pdbcms/Plugin.php:1063
+msgid "Multi Search"
+msgstr "Recherche multiple"
+
+#: pdbcms/Plugin.php:1064
+msgid ""
+"Provides a single control for each field named in the \"Multi Search "
+"Fields\" setting."
+msgstr ""
+"Fournit un contrôle unique pour chaque champ nommé dans le paramètre "
+"« Champs de recherche multiples »."
+
+#: pdbcms/Plugin.php:1065
+msgid "Combination Search"
+msgstr "Recherche par combinaison"
+
+#: pdbcms/Plugin.php:1066
+msgid ""
+"Combination (or Combo) Search is a single text search field that is applied "
+"to several fields. The text entered into this field will be searched for in "
+"all of the fields named in the \"Combo Search Fields\" setting."
+msgstr ""
+"La recherche combinée est un champ de recherche textuel unique appliqué à "
+"plusieurs champs. Le texte saisi dans ce champ sera recherché dans tous les "
+"champs nommés dans le paramètre « Combo Search Fields »."
+
+#: pdbcms/Plugin.php:1067
+msgid ""
+"Either search type may be disabled by leaving the search fields setting "
+"blank."
+msgstr ""
+"L’un ou l’autre type de recherche peut être désactivé en laissant le "
+"paramètre des champs de recherche vide."
+
+#: pdbcms/Plugin.php:1077
+msgid "Custom Templates"
+msgstr "Modèles personnalisés"
+
+#: pdbcms/Plugin.php:1078
+msgid ""
+"<strong>This plugin requires a special template.</strong> There are "
+"templates for both the list and search shortcodes. To customize the "
+"template, use one of the default templates provided by this plugin as a "
+"starting point."
+msgstr ""
+"<strong>Ce plugin nécessite un modèle spécial.</strong> Il existe des "
+"modèles pour la liste et les codes courts de recherche. Pour personnaliser "
+"le modèle, utilisez l’un des modèles par défaut fournis par ce plugin comme "
+"point de départ."
+
+#: pdbcms/Plugin.php:1079
+msgid ""
+"If you are already using a custom template, compare your custom template "
+"with the template provided by the plugin. You will need to set up the search "
+"control on your custom template the same way it is set up in the Multisearch "
+"template."
+msgstr ""
+"Si vous utilisez déjà un modèle personnalisé, comparez votre modèle "
+"personnalisé avec le modèle fourni par le plug-in. Vous devrez configurer le "
+"contrôle de recherche sur votre modèle personnalisé de la même manière que "
+"dans le modèle Multisearch."
+
+#: pdbcms/Plugin.php:1091 pdbcms/multifields/tab.php:53
+msgid "Multi Search Fields"
+msgstr "Champs de recherche multiples"
+
+#: pdbcms/Search/Control_Element.php:483
+msgctxt "between two values to indicate a range of values"
+msgid "through"
+msgstr "jusqu'à"
+
+#: pdbcms/Search/Control_Element.php:569
+msgctxt "between two values to indicate a range of values"
+msgid "to"
+msgstr "à"
+
+#: pdbcms/Search/Search_Controls.php:182
+msgid "Any Words"
+msgstr "N’importe quel mot"
+
+#: pdbcms/Search/Search_Controls.php:182
+msgid "All Words"
+msgstr "Tous les mots"
+
+#: pdbcms/Search/Search_Controls.php:182
+msgid "Exact Phrase"
+msgstr "Phrase exacte"
+
+#: pdbcms/multifields/field_editor.php:122
+msgid "Label"
+msgstr "Label"
+
+#: pdbcms/multifields/field_editor.php:136
+msgid "Help Text"
+msgstr "Texte d&#39;aide"
+
+#: pdbcms/multifields/field_editor.php:150
+msgid "Attributes"
+msgstr "Atrributs"
+
+#: pdbcms/multifields/field_editor.php:163
+msgid "Input Type"
+msgstr "Type d’entrée"
+
+#: pdbcms/multifields/field_editor.php:182
+msgid "Show \"Any\" Option"
+msgstr "Afficher l’option « N’importe lequel »"
+
+#: pdbcms/multifields/field_editor.php:186
+msgid "\"Any\" Option Label"
+msgstr "Étiquette d’option « n’importe quelle »"
+
+#: pdbcms/multifields/field_editor.php:203
+msgid "Database Values in Selector"
+msgstr "Valeurs de base de données dans le sélecteur"
+
+#: pdbcms/multifields/field_editor.php:221
+msgid "Multiselect \"Or\" Mode"
+msgstr "Multiselect « Ou » Mode"
+
+#: pdbcms/multifields/field_editor.php:240
+msgid "Include Field Label in Result Summary"
+msgstr "Inclure l’étiquette de champ dans le résumé des résultats"
+
+#: pdbcms/multifields/field_editor.php:357
+#, php-format
+msgctxt "title for a numeric range input, the type name is the replaced text"
+msgid "%s Range"
+msgstr "Gamme %s"
+
+#: pdbcms/multifields/field_editor.php:360
+msgid "Database Dropdown"
+msgstr "Liste déroulante de la base de données"
+
+#: pdbcms/multifields/tab.php:57
+msgid "Add Field:"
+msgstr "Ajouter un champ:"
+
+#: pdbcms/multifields/tab.php:70
+msgid ""
+"To add a field to the multi-search control, select a field above, then click "
+"the \"plus\" sign button."
+msgstr ""
+"Pour ajouter un champ au contrôle multi-recherche, sélectionnez un champ ci-"
+"dessus, puis cliquez sur le bouton du signe « plus »."
+
+#: pdbcms/multifields/tab.php:77 pdbcms/multifields/tab.php:81
+msgid "Update Multi-Fields"
+msgstr "Mettre à jour les champs multiples"
+
+#: pdbcms/multifields/tab.php:123
+msgid "Combo Search field"
+msgstr "Champ de recherche combinée"
+
+#: pdbcms/multifields/updates.php:44
+msgid "Multisearch fields have been updated."
+msgstr "Les champs multi-recherches ont été mis à jour."
+
+#: templates/pdb-list-multisearch-responsive.php:67
+#: templates/pdb-list-multisearch.php:72
+#: templates/pdb-search-multisearch.php:92
+msgid "Sort by"
+msgstr "Trier par"
+
+#: templates/pdb-list-multisearch-responsive.php:109
+#: templates/pdb-list-multisearch.php:95
+#, php-format
+msgid "Found %d record"
+msgid_plural "Found %d records"
+msgstr[0] "Dossier trouvé %d"
+msgstr[1] "Trouvé %d enregistrements"
+
+#: templates/pdb-list-multisearch-responsive.php:111
+#: templates/pdb-list-multisearch.php:97
+#, php-format
+msgid "Found %d result while searching for %s."
+msgid_plural "Found %d results while searching for %s."
+msgstr[0] "Trouvé %d résultat lors de la recherche de %s."
+msgstr[1] "Trouvé %d résultats lors de la recherche de %s."
+
+#. Plugin Name of the plugin/theme
+msgid "Participants Database Combination Multi Search"
+msgstr "Base de données des participants Combinaison Multi Recherche"
+
+#. Plugin URI of the plugin/theme
+msgid "https://xnau.com/shop/combo-multisearch-plugin/"
+msgstr "https://xnau.com/shop/combo-multisearch-plugin/"
+
+#. Description of the plugin/theme
+msgid ""
+"add multiple-field search, plus text search to Participants Database List "
+"Display"
+msgstr ""
+"ajouter une recherche à champs multiples, ainsi qu’une recherche textuelle à "
+"l’affichage de la liste de la base de données des participants"
+
+#. Author of the plugin/theme
+msgid "Roland Barker, xnau webdesign"
+msgstr "Roland Barker, xnau webdesign"
+
+#~ msgid ""
+#~ "If checked, the search selectors will be populated from the database "
+#~ "records, if unchecked, the values defined in the field will be used."
+#~ msgstr ""
+#~ "Si cochée, les sélecteurs de recherche seront remplies des "
+#~ "enregistrements de base de données, si non coché, les valeurs définies "
+#~ "dans le champ seront utilisés."
+
+#~ msgid "Search Field Help Text"
+#~ msgstr "Texte d'aide"
+
+#~ msgid "Please type in something to search for."
+#~ msgstr "Entrez ce que vous recherchez SVP."
