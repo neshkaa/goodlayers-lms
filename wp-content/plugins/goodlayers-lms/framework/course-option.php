@@ -452,6 +452,13 @@
 						'type' => 'checkbox',
 						'default' => 'disable'
 					),
+					// ADDED Redirect to Page for Public sections
+                 			'redirect-to-page' => array(
+                  			     'name' => esc_html__('Redirect to Page', 'gdlr-lms'),
+                  			     'id' => 'lesson-redirect',
+        			             'type' => 'text',
+                   			     'description' => __('Enter a page URL to redirect to instead of showing the lesson content (leave empty for normal lesson)', 'gdlr-lms')
+        			        ),
 					'lecture-content' => array(
 						'type' => 'wysiwyg'
 					),
